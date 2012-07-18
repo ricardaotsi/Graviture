@@ -1,12 +1,6 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\orbiter.js">
-    <Files>
-      <File FileName="Assets\Scripts\orbiter.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\OrbitalEllipse.js" Line="93" Column="2" />
-      <File FileName="Assets\Scripts\OrbitState.js" Line="73" Column="2" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

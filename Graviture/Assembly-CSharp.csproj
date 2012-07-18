@@ -5,11 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{03CEDF8F-F9E7-58B5-3589-A62613906597}</ProjectGuid>
+	<ProjectGuid>{FA83E3ED-4378-624E-BC1D-2B6555ECDA50}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
-	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
 	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
 	<FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -44,11 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\OrbitState.js" />
-     <Compile Include="Assets\Scripts\OrbitalEllipse.js" />
-     <Compile Include="Assets\Scripts\Orbiter.js" />
-     <Compile Include="Assets\Scripts\ProceduralTexture.js" />
-     <Compile Include="Assets\Scripts\click.js" />
+     <Compile Include="Assets\Plugin\Perlin.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
