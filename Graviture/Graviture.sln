@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{5E63726F-51E4-41F5-63E5-639D8C838880}") = "Graviture", "Assembly-CSharp.csproj", "{FA83E3ED-4378-624E-BC1D-2B6555ECDA50}"
+EndProject
 Project("{5E63726F-51E4-41F5-63E5-639D8C838880}") = "Graviture", "Assembly-UnityScript.unityproj", "{03CEDF8F-F9E7-58B5-3589-A62613906597}"
 EndProject
 Global
@@ -9,6 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA83E3ED-4378-624E-BC1D-2B6555ECDA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA83E3ED-4378-624E-BC1D-2B6555ECDA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA83E3ED-4378-624E-BC1D-2B6555ECDA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA83E3ED-4378-624E-BC1D-2B6555ECDA50}.Release|Any CPU.Build.0 = Release|Any CPU
 		{03CEDF8F-F9E7-58B5-3589-A62613906597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{03CEDF8F-F9E7-58B5-3589-A62613906597}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03CEDF8F-F9E7-58B5-3589-A62613906597}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -17,7 +23,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																					GlobalSection(MonoDevelopProperties) = preSolution
+																																																											GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
