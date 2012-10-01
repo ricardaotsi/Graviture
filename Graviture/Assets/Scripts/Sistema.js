@@ -1,7 +1,7 @@
-#pragma strict
-static var f:int=0;
+
+static var f:int=1;
 function teste()
 {
 	f++;
-	Debug.Log (f.ToString());
 }
+

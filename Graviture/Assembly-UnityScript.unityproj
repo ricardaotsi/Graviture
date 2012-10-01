@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\Orbiter.js" />
      <Compile Include="Assets\Scripts\ProceduralTexture.js" />
      <Compile Include="Assets\Scripts\Sistema.js" />
+     <Compile Include="Assets\Scripts\SistemaGUI.js" />
      <Compile Include="Assets\Scripts\click.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
