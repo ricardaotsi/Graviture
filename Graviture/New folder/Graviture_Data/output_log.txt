@@ -15,5 +15,78 @@ Platform assembly: C:\Users\Arruda\Documents\GitHub\Graviture\Graviture\New fold
 Loading C:\Users\Arruda\Documents\GitHub\Graviture\Graviture\New folder\Graviture_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\Arruda\Documents\GitHub\Graviture\Graviture\New folder\Graviture_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
 Loading C:\Users\Arruda\Documents\GitHub\Graviture\Graviture\New folder\Graviture_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
-- Completed reload, in  0.063 seconds
+- Completed reload, in  0.078 seconds
+Platform assembly: C:\Users\Arruda\Documents\GitHub\Graviture\Graviture\New folder\Graviture_Data\Managed\UnityScript.Lang.dll (this message is harmless)
 Platform assembly: C:\Users\Arruda\Documents\GitHub\Graviture\Graviture\New folder\Graviture_Data\Managed\Boo.Lang.dll (this message is harmless)
+3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SistemaGUI:WinPlanets(Int32)
+UnityEngine._Window:Do()
+UnityEngine.GUI:BeginWindows(Int32, IDList, Int32)
+ 
+(Filename: C:/BuildAgent/work/b0bcff80449a48aa/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SistemaGUI:WinPlanets(Int32)
+UnityEngine._Window:Do()
+UnityEngine.GUI:BeginWindows(Int32, IDList, Int32)
+ 
+(Filename: C:/BuildAgent/work/b0bcff80449a48aa/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SistemaGUI:WinPlanets(Int32)
+UnityEngine._Window:Do()
+UnityEngine.GUI:BeginWindows(Int32, IDList, Int32)
+ 
+(Filename: C:/BuildAgent/work/b0bcff80449a48aa/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+3
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SistemaGUI:WinPlanets(Int32)
+UnityEngine._Window:Do()
+UnityEngine.GUI:BeginWindows(Int32, IDList, Int32)
+ 
+(Filename: C:/BuildAgent/work/b0bcff80449a48aa/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SistemaGUI:WinPlanets(Int32)
+UnityEngine._Window:Do()
+UnityEngine.GUI:BeginWindows(Int32, IDList, Int32)
+ 
+(Filename: C:/BuildAgent/work/b0bcff80449a48aa/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SistemaGUI:WinPlanets(Int32)
+UnityEngine._Window:Do()
+UnityEngine.GUI:BeginWindows(Int32, IDList, Int32)
+ 
+(Filename: C:/BuildAgent/work/b0bcff80449a48aa/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SistemaGUI:WinPlanets(Int32)
+UnityEngine._Window:Do()
+UnityEngine.GUI:BeginWindows(Int32, IDList, Int32)
+ 
+(Filename: C:/BuildAgent/work/b0bcff80449a48aa/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+
+0
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+SistemaGUI:WinPlanets(Int32)
+UnityEngine._Window:Do()
+UnityEngine.GUI:BeginWindows(Int32, IDList, Int32)
+ 
+(Filename: C:/BuildAgent/work/b0bcff80449a48aa/Runtime/ExportGenerated/StandalonePlayer/UnityEngineDebug.cpp Line: 43)
+

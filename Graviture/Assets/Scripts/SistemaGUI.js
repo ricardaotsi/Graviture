@@ -11,10 +11,9 @@ var scrollInv : Vector2 = Vector2.zero;
 var scrollPlan : Vector2 = Vector2.zero;
 static var RotYSun:int=0;
 var planets = new Array();
-var qtdePlanets : int = 0;
+var position = new Array();
 
 function OnGUI() {
-	// SE clicou no botão
 	if(GUI.Button( Rect(20,Screen.height-Screen.height/10-20, Screen.width/12, Screen.height/10), btntexInfo)) {
 		janelaInfoVisible = true;
 	}
@@ -33,10 +32,17 @@ function WinPlanets(windowID : int){
 		janelaPlanVisible = false;
 	}
 	
-	scrollPlan = GUI.BeginScrollView(Rect(10, 25, 180, 270), scrollPlan, Rect(0,0, 100, qtdePlanets*22));
+	scrollPlan = GUI.BeginScrollView(Rect(10, 25, 180, 270), scrollPlan, Rect(0,0, 100, planets.length*22));
 	for(var i : int =0;i<=planets.length-1;i++)
 	{
-		 GUI.Label(Rect (0, i*20, 100, 20), i.ToString());
+		 GUI.Label(Rect (0, i*20, 100, 20), (i+1).ToString());
+		 if(GUI.Button(Rect(30,i*20,30,20),"X"))
+		 {
+		 	Destroy(planets[i].gameObject);
+			planets.RemoveAt(i);
+			position[i] = false;
+		 Debug.Log(planets.length.ToString());
+		 }
 	}
 	GUI.EndScrollView();
 	
@@ -60,10 +66,18 @@ function WinInventory(windowID : int) {
 	
 	if(GUI.Button(Rect(10,250,180,40),"Combinar"))
 	{
-		Instantiate(planeta, Vector3(GameObject.Find("Sun").transform.position.x+Sistema.f*2, GameObject.Find("Sun").transform.position.y,GameObject.Find("Sun").transform.position.z), Quaternion.identity);
-		planets[qtdePlanets] = qtdePlanets+1;
-		qtdePlanets++;
-		gameObject.SendMessage("teste");
+		for(var i : int =0;i<=position.length-1;i++)
+		{
+			if(position[i] == false)
+			{
+				position[i]=true;
+				planets.Add(Instantiate(planeta, Vector3(GameObject.Find("Sun").transform.position.x+i+1*2, GameObject.Find("Sun").transform.position.y,GameObject.Find("Sun").transform.position.z), Quaternion.identity));
+				break;
+			}
+		}
+		planets.Add(Instantiate(planeta, Vector3(GameObject.Find("Sun").transform.position.x+position.length+1*2, GameObject.Find("Sun").transform.position.y,GameObject.Find("Sun").transform.position.z), Quaternion.identity));
+		position.Add(true);
+		//gameObject.SendMessage("teste");
 	}
 	
 	GUI.DragWindow();
