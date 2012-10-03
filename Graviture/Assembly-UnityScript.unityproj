@@ -48,9 +48,9 @@
      <Compile Include="Assets\Scripts\OrbitalEllipse.js" />
      <Compile Include="Assets\Scripts\Orbiter.js" />
      <Compile Include="Assets\Scripts\ProceduralTexture.js" />
+     <Compile Include="Assets\Scripts\Rotate.js" />
      <Compile Include="Assets\Scripts\Sistema.js" />
      <Compile Include="Assets\Scripts\SistemaGUI.js" />
-     <Compile Include="Assets\Scripts\click.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
