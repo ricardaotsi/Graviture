@@ -3,6 +3,8 @@ var btntexPlan : Texture;
 var btntexBin : Texture;
 var janelaInfo : Rect = Rect(100, 100, 200, 300);
 var janelaPlan : Rect = Rect(350, 100, 200, 300);
+var janelaBin : Rect = Rect(600, 100, 200, 95);
+var janelaBinVisible : boolean = false;
 var janelaInfoVisible : boolean = false;
 var janelaPlanVisible : boolean = false;
 var tgstate : boolean = false;
@@ -22,6 +24,22 @@ function OnGUI() {
 		janelaPlanVisible = true;
 	}
 	if(GUI.Button( Rect(60+2*Screen.width/12,Screen.height-Screen.height/10-20, Screen.width/12, Screen.height/10), btntexBin)){
+		janelaBinVisible = true;
+	}
+	if(janelaInfoVisible)
+		janelaInfo = GUI.Window(0, janelaInfo, WinInventory, "Inventory");
+	if(janelaPlanVisible)
+		janelaPlan = GUI.Window(1, janelaPlan, WinPlanets, "Planets");
+	if(janelaBinVisible)
+		janelaBin = GUI.Window(2, janelaBin, WinBin, "Delete All Planets");
+		
+}
+
+function WinBin(windowID : int)
+{
+	GUI.Label(Rect(10,25,200,100),"Confirm deletion of all planets?");
+	if(GUI.Button(Rect(30,50,60,30),"YES"))
+	{
 		for(var i : int =0;i<=planets.length-1;i++)
 		{
 			if(planets[i][1] == true)
@@ -30,12 +48,12 @@ function OnGUI() {
 				planets[i][1] = false;
 			}
 		}
+		janelaBinVisible = false;
 	}
-	if(janelaInfoVisible)
-		janelaInfo = GUI.Window(0, janelaInfo, WinInventory, "Inventory");
-	if(janelaPlanVisible)
-		janelaPlan = GUI.Window(1, janelaPlan, WinPlanets, "Planets");
-		
+	if(GUI.Button(Rect(95,50,60,30),"NO"))
+	{
+		janelaBinVisible = false;
+	}
 }
 
 function WinPlanets(windowID : int){
